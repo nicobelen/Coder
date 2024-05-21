@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(182, 136, 224);
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.buttons button {
+  padding: 5px 10px;
+}
