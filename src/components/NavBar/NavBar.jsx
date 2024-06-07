@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import CartWidget from "../CartWidget/CartWidget";
 import { Button, Heading } from "@chakra-ui/react";

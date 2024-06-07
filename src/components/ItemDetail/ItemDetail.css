@@ -1,0 +1,21 @@
+.ItemImg {
+  width: 40%;
+}
+
+.CardContainer {
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  border: 1em;
+  border-color: black;
+}
+
+.CardItem {
+  border: 2rem;
+  border-color: black;
+}
+
+picture {
+  display: flex;
+  width: 10%;
+}
