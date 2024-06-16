@@ -1,0 +1,17 @@
+.CardItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: red;
+  flex-grow: 1;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px darkgray;
+  border: 1px solid lightgray;
+  padding: 15px;
+}
+
+.CardItemPicture {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

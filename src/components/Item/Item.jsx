@@ -4,26 +4,29 @@ import React from "react";
 
 import "./Item.css";
 import { Flex } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Item = ({ id, name, img, price, stock }) => {
   return (
-    <Flex>
-      <article className="CardItem">
-        <header className="Header">
-          <h2 className="ItemHeader">{name}</h2>
-        </header>
-        <picture>
-          <img src={img} alt={name} className="ItemImg" />
-        </picture>
+    <article className="CardItem">
+      <header className="Header">
+        <h2 className="ItemHeader">{name}</h2>
+      </header>
+      <picture className="CardItemPicture">
+        <img src={img} alt={name} className="ItemImg" />
+      </picture>
+      <Flex direction="column">
         <section>
           <p className="Info">Precio: ${price}</p>
           <p className="Info">Stock disponible: {stock}</p>
         </section>
         <footer className="ItemFooter">
-          <button className="Option">Ver detalle</button>
+          <Link to={`/item/${id}`} className="Option">
+            Ver detalle
+          </Link>
         </footer>
-      </article>
-    </Flex>
+      </Flex>
+    </article>
   );
 };
 

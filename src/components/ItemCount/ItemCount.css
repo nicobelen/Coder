@@ -10,8 +10,8 @@ h4 {
 }
 
 .ButtonAdd {
+  padding: 4px 8px;
   height: 2vw;
-  width: 6vw;
   font-size: large;
   font-weight: 500;
   border-radius: 0.3em;

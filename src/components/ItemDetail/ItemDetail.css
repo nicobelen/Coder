@@ -1,5 +1,5 @@
 .ItemImg {
-  width: 40%;
+  width: 300px;
 }
 
 .CardContainer {
@@ -10,7 +10,7 @@
   border-color: black;
 }
 
-.CardItem {
+.CardItemDetail {
   border: 2rem;
   border-color: black;
 }

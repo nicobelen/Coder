@@ -9,7 +9,7 @@ import "./ItemDetail.css";
 const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
   return (
     <Flex className="CardContainer">
-      <article className="CardItem">
+      <article className="CardItemDetail">
         <header className="Header">
           <h2 className="ItemHeader">{name}</h2>
         </header>
