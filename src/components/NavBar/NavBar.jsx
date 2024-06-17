@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import CartWidget from "../CartWidget/CartWidget";
-import { Heading } from "@chakra-ui/react";
 
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
@@ -10,7 +9,12 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div>
-        <Heading>Logo</Heading>
+        <NavLink
+          to={`/`}
+          className={({ isActive }) => (isActive ? "ActiveOption" : "Option")}
+        >
+          Logo
+        </NavLink>
       </div>
       <div className="Categories">
         <NavLink
