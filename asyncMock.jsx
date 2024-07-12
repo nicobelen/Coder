@@ -40,7 +40,7 @@ const products = [
     name: "Suzuki GSX-R1000",
     price: 17799,
     category: "suzuki",
-    img: "https://www.motorcyclistonline.com/resizer/qNdBixawtfV6O2naQOyMuSshxCs=/1440x0/filters:focal(756x510:766x520)/cloudfront-us-east-1.images.arcpublishing.com/octane/EBQS7AKNUBFV3MEVCW3SLKPVOI.jpg",
+    img: "https://images.carandbike.com/bike-images/colors/suzuki/gsx-r1000/suzuki-gsx-r1000-metallic-triton-blue.png?v=1",
     stock: 30,
     description: "Suzuki GSX-R1000 2024",
   },

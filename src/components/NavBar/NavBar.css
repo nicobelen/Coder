@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  background-color: rgb(182, 136, 224);
+  padding: 2rem;
+  background: linear-gradient(#ffc080, #343a40);
 }
 
 .buttons {
@@ -12,4 +12,28 @@
 }
 .buttons button {
   padding: 5px 10px;
+}
+
+.Categories {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  text-decoration-line: none;
+  text-decoration: none;
+}
+
+#navlink {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: #032b44;
+}
+
+#navlink:hover {
+  color: white;
+  animation: step-end 1;
+  transform: scale(1.05);
 }
